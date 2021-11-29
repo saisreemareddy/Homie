@@ -8,31 +8,19 @@ const{
     PORT,
     HOST,
     HOST_URL,
-    API_KEY,
-    AUTH_DOMAIN,
     DATABASE_URL,
-    PROJECT_ID,
-    STORAGE_BUCKET,
-    MESAGING_SENDER_ID,
-    APP_ID
+    TEST_DATABASE_URL
 
 } = process.env;
 
 assert(PORT, 'PORT is required');
-assert(HOST, 'HOST is required');
 
 module.exports = {
 
     port: PORT || env.process.PORT,
     host: HOST,
     url: HOST_URL,
-    firebaseConfig: {
-        apiKey: API_KEY,
-        authDomain: AUTH_DOMAIN,
-        databaseURL: DATABASE_URL,
-        projectId: PROJECT_ID,
-        storageBucket: STORAGE_BUCKET,
-        messagingSenderId: MESAGING_SENDER_ID,
-        appId:APP_ID
-    }
+    database_url: DATABASE_URL,
+    test_database_url: TEST_DATABASE_URL
+    
 }
