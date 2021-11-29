@@ -380,7 +380,7 @@ object-fit: contain;
 }
 
 .background-header .main-nav a.logo {
-  background-image: url(../img/homiefy-logo.png);
+  background-image: url(../img/main-logo-m.png);
 object-fit: contain;
   width: 164px;
   height: 58px;
@@ -820,7 +820,7 @@ Banner Style
 .main-banner {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../css/banner-bg.jpg);
+  background-image: url(../img/banner-bg.jpg);
   padding: 290px 0px 298px 0px;
   position: relative;
   overflow: hidden;
